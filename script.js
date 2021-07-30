@@ -6,7 +6,7 @@ const list = Array.from(menuList);
 
 let sideMenu = false;
 
-function CloseSideMenu() {
+function CloseSide() {
   menu.style.display = 'none';
   sideMenu = false;
 }

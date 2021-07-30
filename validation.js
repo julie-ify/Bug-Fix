@@ -5,7 +5,7 @@ const paragraph = document.querySelector('.error-paragraph');
 paragraph.appendChild(errorAlert);
 
 const contactForm = document.querySelector('.form');
-const userEmail = document.querySelector('#email');
+const userEmail = document.querySelector('email');
 
 function checkError(e) {
   if (userEmail.value !== userEmail.value.toLowerCase()) {

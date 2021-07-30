@@ -18,7 +18,7 @@ function populateStorage() {
   setStorage();
 }
 
-if (!localStorage.getItem('name')) {
+if (!localStorage.getItem('nam')) {
   populateStorage();
 } else setStorage();
 
